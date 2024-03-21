@@ -3,7 +3,6 @@ import React from "react";
 const PlayButton = ({ name, play, setGame }) => {
   return (
     <button
-      className="playbt"
       onClick={() => {
         setGame(name);
         play();
